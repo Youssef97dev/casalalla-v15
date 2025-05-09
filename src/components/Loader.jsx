@@ -28,7 +28,7 @@ const Loader = () => {
         </div>
       ) : (
         <div className="fixed inset-0 z-40 flex items-center justify-center">
-          <CircleLoader color="#000000" size={100} />
+          <CircleLoader color="#c20022" size={100} />
         </div>
       )}
     </>

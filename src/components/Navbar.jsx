@@ -48,7 +48,7 @@ const Navbar = () => {
         <div className="w-full flex justify-start items-center gap-10">
           <div
             className={`pb-1 cursor-pointer ${
-              scrolled ? "text-primary" : "text-white"
+              scrolled ? "text-secondary" : "text-white"
             }`}
             onClick={() => setIsOpen(true)}
           >
@@ -60,7 +60,7 @@ const Navbar = () => {
           >
             <button
               className={`font-light tracking-widest flex justify-center items-center gap-2 pb-1 ${
-                scrolled ? "text-primary" : "text-white"
+                scrolled ? "text-secondary" : "text-white"
               }`}
             >
               <span>{t("navbar.lang")}</span>
@@ -71,7 +71,7 @@ const Navbar = () => {
             {isDropdownOpen && (
               <ul className="absolute rounded top-8 -left-20 bg-background mt-2 py-2 w-32 shadow-lg flex justify-center items-center">
                 <li
-                  className="px-4 py-2 hover:bg-secondary rounded-lg cursor-pointer"
+                  className="px-4 py-2 rounded-lg cursor-pointer"
                   onClick={() => changeLanguage("en")}
                 >
                   <Image
@@ -83,7 +83,7 @@ const Navbar = () => {
                   />
                 </li>
                 <li
-                  className="px-4 py-2 hover:bg-secondary rounded-lg cursor-pointer"
+                  className="px-4 py-2 rounded-lg cursor-pointer"
                   onClick={() => changeLanguage("fr")}
                 >
                   <Image
@@ -100,17 +100,21 @@ const Navbar = () => {
         </div>
         <div className="w-full flex justify-center items-center">
           <Image
-            src={scrolled ? "/logo-11.png" : "/logo-6.png"}
+            src={scrolled ? "/logo-12.png" : "/logo-13.png"}
             width={300}
             height={300}
             alt="Logo Casa lalla"
-            className={`mt-2 w-28 lg:w-48 `}
+            className={`mt-2 w-16 lg:w-28 `}
           />
         </div>
         <div className="w-full lg:flex hidden justify-end items-center  text-white cursor-pointer">
           <Link
             href="#"
-            className="tracking-[0.2em] font-light text-primary text-[14px] leading-[34px] bg-secondary hover:bg-primary hover:text-white py-2 px-4  rounded"
+            className={`tracking-[0.2em] font-light text-[14px] leading-[34px] py-2 px-4  rounded ${
+              scrolled
+                ? "text-secondary bg-transparent border border-secondary hover:bg-secondary hover:text-white"
+                : "text-background bg-transparent hover:bg-background hover:text-primary border border-background"
+            }`}
           >
             Réservations
           </Link>
@@ -121,7 +125,7 @@ const Navbar = () => {
         >
           <button
             className={`font-light tracking-widest flex justify-center items-center gap-2 pb-1 ${
-              scrolled ? "text-primary" : "text-white"
+              scrolled ? "text-secondary" : "text-white"
             }`}
           >
             <span>{t("navbar.lang")}</span>
@@ -132,7 +136,7 @@ const Navbar = () => {
           {isDropdownOpen && (
             <ul className="absolute rounded top-8 -left-5 bg-background mt-2 py-2 w-32 shadow-lg flex justify-center items-center">
               <li
-                className="px-4 py-2 hover:bg-secondary rounded-lg cursor-pointer"
+                className="px-4 py-2 rounded-lg cursor-pointer"
                 onClick={() => changeLanguage("en")}
               >
                 <Image
@@ -144,7 +148,7 @@ const Navbar = () => {
                 />
               </li>
               <li
-                className="px-4 py-2 hover:bg-secondary rounded-lg cursor-pointer"
+                className="px-4 py-2 rounded-lg cursor-pointer"
                 onClick={() => changeLanguage("fr")}
               >
                 <Image
