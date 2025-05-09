@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "Casa Lalla Takerkoust - Vibe Agafay Desert",
   description:
