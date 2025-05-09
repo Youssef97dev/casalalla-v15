@@ -14,7 +14,7 @@ const Events = () => {
     >
       <div className=" w-full">
         <div className="w-full h-full flex flex-col justify-center items-start gap-1 lg:p-20 p-4 text-primary">
-          <h1 className="text-[26px] leading-[40px] tracking-[2px] font-eiko font-thin mb-5 px-4 2xl:px-12">
+          <h1 className="text-[22px] leading-[30px] tracking-[2px] text-secondary font-eiko font-thin mb-5 px-4 2xl:px-12">
             {/*<TypeAnimation
               sequence={[t("about.title"), 2000]}
               wrapper="span"
@@ -23,7 +23,7 @@ const Events = () => {
             />*/}
             {"Casa Lalla is a space for members to eat, drink and celebrate"}
           </h1>
-          <p className="text-[19px] font-light lg:font-normal tracking-widest leading-[34px] px-4 2xl:px-12">
+          <p className="text-[12px] font-light lg:font-normal tracking-wider leading-[34px] px-4 2xl:px-12">
             {/* t("about.content_1") */}
             {
               "the unmatched beauty of our natural landscape is the perfect backdrop for your event or celebration. From weddings, anniversaries and  birthdays to photo shoots and brand events, you can make Casa lalla your own for an unforgettable time. whether intimate or grand, our specially designed experience will ensure your vision comes to life seamlessly."

@@ -112,8 +112,8 @@ const Activities = () => {
           {/* Filter */}
         </div>
         <div className="w-full flex flex-col justify-center items-center gap-4 pt-10 pb-5 px-5">
-          <div className="w-full h-full flex flex-col justify-start items-center gap-1 text-center  lg:px-16">
-            <h1 className="text-[26px] leading-[40px] tracking-[2px] font-eiko font-thin mb-5 px-4 2xl:px-12">
+          <div className="w-full h-full flex flex-col justify-start items-center gap-1 text-center">
+            <h1 className="text-[22px] leading-[30px] tracking-[2px] text-secondary text-left font-eiko font-thin mb-5 px-4 2xl:px-12">
               <TypeAnimation
                 sequence={[t("activities.title"), 2000]}
                 wrapper="span"
@@ -124,7 +124,7 @@ const Activities = () => {
             <Accordion />
             <Link
               href="/custom-booking"
-              className="mt-5 ml-0 2xl:ml-11 py-2 px-8 tracking-widest border border-secondary text-primary rounded-lg text-[16px] leading-[34px] hover:bg-secondary hover:text-white duration-200 transition-all ease-out font-light"
+              className="text-[12px] mt-5 ml-0 2xl:ml-11 py-2 px-8 tracking-widest border border-secondary text-primary rounded-lg leading-[34px] hover:bg-secondary hover:text-white duration-200 transition-all ease-out font-light"
             >
               {t("activities.book_experience")}
             </Link>

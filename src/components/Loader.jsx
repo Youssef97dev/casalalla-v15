@@ -6,6 +6,7 @@ import About from "./About";
 import Events from "./Events";
 import Activities from "./Activities";
 import ImageScroller from "./ImageScroller";
+import Buttons from "./Buttons";
 //import Contact from "./Contact";
 //import Footer from "./Footer";
 
@@ -21,12 +22,15 @@ const Loader = () => {
   return (
     <>
       {isClient ? (
-        <div className="">
+        <div className="relative">
           <Hero />
           <About />
           <Events />
           <Activities />
           <ImageScroller />
+          <div className="fixed bottom-5 left-0 w-full block lg:hidden z-10">
+            <Buttons />
+          </div>
         </div>
       ) : (
         <div className="fixed inset-0 z-40 flex items-center justify-center">

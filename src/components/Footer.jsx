@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-full text-center py-5 bg-[#2a292b] text-background text-sm lg:text-base">
+      <div className="w-full h-full text-center pt-5 pb-16 lg:pb-5 bg-[#2a292b] text-background text-sm lg:text-base">
         © 2025 Casa lalla takerkoust. All Right Reserved
       </div>
     </div>

@@ -124,7 +124,7 @@ const Navbar = () => {
           onClick={() => setIsDropdownOpen(!isDropdownOpen)}
         >
           <button
-            className={`font-light tracking-widest flex justify-center items-center gap-2 pb-1 ${
+            className={`font-light tracking-widest flex justify-center items-center gap-2 pb-1 text-[12px] ${
               scrolled ? "text-secondary" : "text-white"
             }`}
           >
@@ -175,11 +175,11 @@ const Navbar = () => {
         >
           <div className="fixed top-0 left-0 z-10 w-full lg:w-[25%] h-screen bg-white flex flex-col items-left justify-start lg:justify-center gap-16  py-14 px-20">
             <div className="text-secondary" onClick={() => setIsOpen(false)}>
-              <IoMdClose size={20} />
+              <IoMdClose size={14} />
             </div>
             <ul
               onClick={() => setIsOpen(false)}
-              className="space-y-8 text-secondary leading-[25px] text-[20px] uppercase font-light"
+              className="space-y-8 text-secondary leading-[25px] text-[14px] font-light"
             >
               <li className="pb-3 border-b border-bg_navbar">
                 <Link href="/">{"Home"}</Link>
@@ -206,9 +206,6 @@ const Navbar = () => {
                 <Link href="#gallery">{`Gallery`}</Link>
               </li>
             </ul>
-            <Link className="text-secondary" href="#">
-              <FaInstagram size={20} />
-            </Link>
           </div>
         </Transition>
       </div>

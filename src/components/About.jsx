@@ -59,7 +59,7 @@ const About = () => {
       </div>
       <div className=" w-full">
         <div className="w-full h-full flex flex-col justify-center items-start gap-1 lg:p-20 p-4 text-primary">
-          <h1 className="text-[26px] leading-[40px] tracking-[2px] font-eiko font-thin mb-5 px-4 2xl:px-12">
+          <h1 className="text-[22px] leading-[30px] tracking-[2px] font-eiko font-thin mb-5 px-4 2xl:px-12 text-secondary">
             {/*<TypeAnimation
               sequence={[t("about.title"), 2000]}
               wrapper="span"
@@ -70,25 +70,25 @@ const About = () => {
               "Casa Lalla Takerkoust, exquisite cuisine and amazing panoramic view"
             }
           </h1>
-          <p className="text-[19px] font-light lg:font-normal tracking-widest leading-[34px] px-4 2xl:px-12">
+          <p className="text-[12px] font-light lg:font-normal tracking-wider leading-[34px] px-4 2xl:px-12">
             {/* t("about.content_1") */}
             {
               "Casa Lalla welcomes its guests far from the sophistication and hustle and bustle of the city, this haven of peace is the ideal place to indulge in simple pleasures and savor the mild climate."
             }
           </p>
-          <p className="text-[19px] font-light lg:font-normal tracking-widest leading-[34px] px-4 2xl:px-12 ">
+          <p className="text-[12px] font-light lg:font-normal tracking-wider leading-[34px] px-4 2xl:px-12 ">
             {/*t("about.content_2")*/}
             {
               "The decor blends memories and heritage in a simple, quirky atmosphere that exudes the sweet scent of formentera ibiza mykonos."
             }
           </p>
-          <p className="text-[19px] font-light lg:font-normal tracking-widest leading-[34px] px-4 2xl:px-12 ">
+          <p className="text-[12px] font-light lg:font-normal tracking-wider leading-[34px] px-4 2xl:px-12 ">
             {/*t("about.content_3")*/}
             {
               "Much more than a restaurant, this lakeside spot is a veritable living space. Restaurant, bar, swimming pool, private cabanas - everything is designed for relaxing, sharing, celebrating and creating lasting memories."
             }
           </p>
-          <p className="text-[19px] text-primary font-light lg:font-normal tracking-widest leading-[34px] px-4 2xl:px-12 ">
+          <p className="text-[12px] text-primary font-light lg:font-normal tracking-wider leading-[34px] px-4 2xl:px-12 ">
             {/*t("about.content_4")*/}
             {
               "At casa lalla, you'll experience extravagant moments where the joy of being together and gourmet pleasures suspend the course of time - under the banner of La Dolce Vita and festivities!"
