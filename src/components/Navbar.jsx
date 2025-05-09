@@ -210,7 +210,7 @@ const Navbar = () => {
               <li className="pb-3 border-b border-bg_navbar">
                 <Link
                   target="_blank"
-                  href="https://casalallatakerkoust.com/gallery"
+                  href="https://casalallatakerkoust.com/gallery.html"
                 >{`Gallery`}</Link>
               </li>
             </ul>
