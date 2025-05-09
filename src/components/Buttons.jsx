@@ -15,7 +15,7 @@ const Buttons = () => {
       </Link>
       <Link
         target="_blank"
-        href="/booking"
+        href="https://casalallatakerkoust.com/booking"
         className="w-full rounded-lg bg-secondary hover:bg-primary text-white py-2 text-center shadow-md text-[12px]"
       >
         {t("navbar.reservation")}
