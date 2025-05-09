@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Events from "./Events";
 import Activities from "./Activities";
+import ImageScroller from "./ImageScroller";
 //import Contact from "./Contact";
 //import Footer from "./Footer";
 
@@ -25,6 +26,7 @@ const Loader = () => {
           <About />
           <Events />
           <Activities />
+          <ImageScroller />
         </div>
       ) : (
         <div className="fixed inset-0 z-40 flex items-center justify-center">

@@ -137,3 +137,19 @@ body {
   break-inside: avoid;
   margin-bottom: 1rem;
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 35s linear infinite;
+}
