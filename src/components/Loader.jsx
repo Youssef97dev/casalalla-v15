@@ -7,10 +7,6 @@ import Events from "./Events";
 import Activities from "./Activities";
 import ImageScroller from "./ImageScroller";
 import Buttons from "./Buttons";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-//import Contact from "./Contact";
-//import Footer from "./Footer";
 
 const Loader = () => {
   const [isClient, setIsClient] = useState(false);
@@ -25,13 +21,11 @@ const Loader = () => {
     <>
       {isClient ? (
         <div className="relative">
-          <Navbar />
           <Hero />
           <About />
           <Events />
           <Activities />
           <ImageScroller />
-          <Footer />
           <div className="fixed bottom-5 left-0 w-full block lg:hidden z-10">
             <Buttons />
           </div>

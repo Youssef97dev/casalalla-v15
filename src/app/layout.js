@@ -1,4 +1,7 @@
 import dynamic from "next/dynamic";
+const Navbar = dynamic(() => import("@/components/Navbar"), { ssr: false });
+import "./globals.css";
+const Footer = dynamic(() => import("@/components/Footer"), { ssr: false });
 
 export const metadata = {
   title: "Casa Lalla Takerkoust - Vibe Agafay Desert",
@@ -9,7 +12,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
