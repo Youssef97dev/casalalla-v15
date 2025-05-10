@@ -41,7 +41,9 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed z-50 w-full transition-colors duration-300 py-3 ${
-        scrolled ? "bg-white text-black" : "bg-transparent text-white"
+        scrolled
+          ? "bg-background text-black shadow-md"
+          : "bg-transparent text-white"
       }`}
     >
       <div className="w-full flex justify-between items-center mx-auto px-5 lg:px-14">
@@ -100,11 +102,11 @@ const Navbar = () => {
         </div>
         <div className="w-full flex justify-center items-center">
           <Image
-            src={scrolled ? "/logo-12.png" : "/logo-13.png"}
+            src={scrolled ? "/logo-10.png" : "/logo-6.png"}
             width={300}
             height={300}
             alt="Logo Casa lalla"
-            className={`mt-2 w-16 lg:w-28 `}
+            className={`mt-2 w-24 lg:w-36 `}
           />
         </div>
         <div className="w-full lg:flex hidden justify-end items-center  text-white cursor-pointer">

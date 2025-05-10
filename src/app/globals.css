@@ -63,7 +63,7 @@
 
 :root {
   --primary: #343434;
-  --background: #ffffff;
+  --background: #efedea;
   --secondary: #9d2d24;
 }
 
@@ -72,7 +72,7 @@ html {
 }
 
 body {
-  background-color: var(--white);
+  background-color: var(--background);
   font-family: "Puffin", serif;
 }
 

@@ -9,7 +9,7 @@ const Buttons = () => {
       <Link
         target="_blank"
         href={t("navbar.menu")}
-        className="w-full rounded-lg bg-background hover:bg-primary hover:text-white py-2 text-center shadow-md text-[12px]"
+        className="w-full rounded-lg bg-white hover:bg-primary hover:text-white py-2 text-center shadow-md text-[12px]"
       >
         {t("navbar.cart")}
       </Link>
